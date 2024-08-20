@@ -44,12 +44,12 @@ export default function Search() {
         pageCount={maxPage}
         marginPagesDisplayed={2}
         onPageChange={handlePageClick}
-        pageClassName=" rounded-lg bg-neutral-800 text-white hover:bg-gray-300 w-10 h-10  hover:bg-neutral-600 "
+        pageClassName=" rounded-lg bg-neutral-900 text-white hover:bg-gray-300 w-10 h-10  hover:bg-neutral-600 "
         pageLinkClassName="w-full h-full flex justify-center items-center"
-        previousClassName=" rounded-lg bg-neutral-800 text-white hover:bg-gray-300 w-20 h-10 flex justify-center items-center hover:bg-neutral-600 "
-        nextClassName=" rounded-lg bg-neutral-800 text-white hover:bg-gray-300 px-3 py-2 hover:bg-neutral-600 "
-        breakClassName=" rounded-lg bg-neutral-800 text-white hover:bg-gray-300 w-20 h-10 flex justify-center items-center hover:bg-neutral-600 "
-        activeClassName=" bg-neutral-500 text-white  pointer-events-none "
+        previousClassName=" rounded-lg bg-neutral-900 text-white hover:bg-gray-300 w-20 h-10 flex justify-center items-center hover:bg-neutral-600 "
+        nextClassName=" rounded-lg bg-neutral-900 text-white hover:bg-gray-300 px-3 py-2 hover:bg-neutral-600 "
+        breakClassName=" rounded-lg bg-neutral-900 text-white hover:bg-gray-300 w-20 h-10 flex justify-center items-center hover:bg-neutral-600 "
+        activeClassName=" bg-neutral-700 text-white  pointer-events-none "
       />
     </div>
   );
